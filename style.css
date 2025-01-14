@@ -1,0 +1,54 @@
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.menu-button {
+    padding: 10px 20px;
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu-button:hover {
+    background-color: #e0e0e0;
+}
+
+.content {
+    display: none; /* Ховаємо контент за замовчуванням */
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+body{
+    font-family: garamond;
+    background-color: #B2C9AC;
+}
+main{
+    font-style: unset;
+}
+h1{
+    font-style: normal;
+}
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: darkgreen;
+}
+
+a:active {
+    color: darkgreen;
+}
+header{
+
+}
